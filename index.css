@@ -1,105 +1,132 @@
-main {
-    border: solid  .5px;
-    border-radius: 10px;
-    margin: 100px auto;
-    width: 50%;
+main{
+    border:solid .5px;
+    width: 70%;
+    margin:300px auto;
+    padding: 4px;
+
 }
 
-    /* HEADER MAIN */
-
-main > header {
+/* main >header{
+    width: 20%;
+    border:solid red;
+    margin:0 auto;
+    position: relative;
+    top:-10px
+} */
+main >header{
     width: fit-content;
-    border: solid .5px;
-    width: 25%;
-    margin: 0 auto;
-    margin-top: -40px;
+    border:solid .5px;
+    margin:0 auto;
+    margin-top: -45px;
     background-color: white;
     text-align: center;
+    padding: 10px;
 }
 
-main > header h2 {
-    margin-top: -60px;
-    margin-bottom: 2px;
-    padding: 5px;
-} 
-
-
-.circle {
-    width: 50px;
+/* circle */
+.circle{
+    border:solid .5px;
+    border-radius: 50%;
     height: 50px;
-    border: solid  .5px;
-    background: white;
-    border-radius: 50%;
-    margin: 0 auto;
-    margin-top: -25px !important;
-    position: relative;
-    z-index: -1;
-}
-.icircus {
     width: 50px;
-    height: 51px;
+    top: 226px;
+    z-index: -1;
+    left: 47.6%;
+    position: absolute;
+}
+/* circle icon */
+.circle-icon{
+    border: solid .5px transparent;
     border-radius: 50%;
-    position: relative;
-    top: -50px;
-    left: 59px;
-    background-color: white;
+    height: 46px;
+    width: 48px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin:0 auto;
+    margin-top: -38px;
+    background-color: white;
 }
-/* section header */
-main > section header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px;
-    margin: 0px 80px 0 80px;
-}
-main > section header i {
-    position: relative;
-    right: 130px;
-}
-section header p {
-    border-bottom: solid .10px;
+.circle-icon i{font-size: 1.4em;}
+
+main >header h2{
+    margin: 2px;
+    text-shadow: 1px 0px 3px #0000007d;
 }
 
-/* PRODUCT */
-.product {
+main>header h2:nth-child(3){
+    margin-top: -11px!important;
+}
+
+/* HEADER SECTION */
+section header{
+    padding: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-radius: 4px;
+}
+/* total price  */
+section header p{
+    border-bottom: solid .5px;
+}
+.search input{
+    padding: 4px;
+}
+.search i{
+    position: relative;
+    left: -25px;
+    top:2px
+}
+
+/* shopping-cart-item */
+
+section ul{padding: 0;}
+.shopping-cart-item{
+    display: flex;
     border: solid .5px;
-    padding: 8px;
-    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
     margin-bottom: 10px;
-    margin-left: 27px;
-    margin-right: 27px;
 }
-.descr {
+.shopping-cart-item img{
+    width: 80px;
+}
+.shopping-cart-item div:first-child{display: flex;/* padding: 10px; */}
+
+.item-info{
     display: flex;
-}
-.descr p {
-    position: relative;
-    left: 9px;
-}
-img {
-    width: 35%;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: solid; */
+    margin: 8px;
+    margin-left: 9px;
 }
 
-.butt {
-    display: flex ;
+/* PAGINNATION */
+.pagination ul{
+    list-style: none;
+    display: flex;
+    margin-left: 30px;
+}
+.pagination ul li {
+    padding: 4px 10px;
+    text-align: center;
+    border:solid .5px;
+    border-color:transparent;
+    background-color:#00000021;
+    margin-left: 6px;
 }
 
-.pagination {
+.active{
+    border-color:black!important;
+    background-color: white!important;
+}
+
+/* SECTION FOOTER  */
+main section:last-child
+{
     display: flex;
     justify-content: space-between;
-}
-ul {
-    display: flex;
-    list-style: none;
-}
-li {
-    border: solid;
-    
+    align-items: center;
 }

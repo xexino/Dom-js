@@ -5,52 +5,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+
+    <!-- FONT AWSOME CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Shooping cart</title>
+    <link rel="stylesheet" href="index.css" />
+    <title>Shopping Cart</title>
 </head>
 
 <body>
     <main>
-
-        <!--  MAIN HEADER -->
+        <!-- HEADER  -->
         <header>
             <div class="circle"></div>
-            <div class="icircus"><i class="fas fa-shopping-cart"></i>
+            <div class="circle-icon">
+                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
             </div>
-            <h2>Shooping <br> Cart</h2>
+            <h2>Shopping</h2>
+            <h2>Cart</h2>
         </header>
-        <!--  MAIN HEADER -->
+        <!-- SECTION-SHOPING-CART-ITEMS -->
         <section>
             <header>
-                <input type="search" placeholder="search by title" />
-                <i class="fas fa-search"></i>
-                <p>Total : 100.23$</p>
+                <div class="search">
+                    <input type="search" placeholder="Search By Product Title" />
+                    <i class="fas fa-search"></i>
+                </div>
+                <p>Total : 103.34$</p>
             </header>
-        </section>
-
-        <section id="list-commands">
-
-        </section>
-
-        <div class="pagination">
-            <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-                <li>4</li>
-                <li>5</li>
+            <ul id="list-commands">
+              
             </ul>
-            <div class="checkout">
-                <button>Checkout<i class="fas fa-check-circle"></i></button>
+        </section>
+        <!-- FOOTER-SHIPING-CART -->
+        <section>
+            <div class="pagination">
+                <ul>
+                    <li class="active">1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                </ul>
             </div>
-            </div>
-
+            <button>Checkout <i class="fas fa-check-square"></i></button>
+        </section>
     </main>
-
+    <!-- JAVASCRIPT  -->
+    <script src="index.js"></script>
 </body>
-<script src="/index.js"></script>
 
 </html>
