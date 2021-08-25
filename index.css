@@ -1,0 +1,105 @@
+main {
+    border: solid  .5px;
+    border-radius: 10px;
+    margin: 100px auto;
+    width: 50%;
+}
+
+    /* HEADER MAIN */
+
+main > header {
+    width: fit-content;
+    border: solid .5px;
+    width: 25%;
+    margin: 0 auto;
+    margin-top: -40px;
+    background-color: white;
+    text-align: center;
+}
+
+main > header h2 {
+    margin-top: -60px;
+    margin-bottom: 2px;
+    padding: 5px;
+} 
+
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border: solid  .5px;
+    background: white;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: -25px !important;
+    position: relative;
+    z-index: -1;
+}
+.icircus {
+    width: 50px;
+    height: 51px;
+    border-radius: 50%;
+    position: relative;
+    top: -50px;
+    left: 59px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* section header */
+main > section header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 0px 80px 0 80px;
+}
+main > section header i {
+    position: relative;
+    right: 130px;
+}
+section header p {
+    border-bottom: solid .10px;
+}
+
+/* PRODUCT */
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    border: solid .5px;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 27px;
+    margin-right: 27px;
+}
+.descr {
+    display: flex;
+}
+.descr p {
+    position: relative;
+    left: 9px;
+}
+img {
+    width: 35%;
+}
+
+.butt {
+    display: flex ;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+li {
+    border: solid;
+    
+}
